@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Akira";
+  src: local("MyFont"), url(./assets/font/Akira.otf) format("truetype");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Akira', sans-serif;
 }
