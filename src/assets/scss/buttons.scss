@@ -1,3 +1,6 @@
+/* ___ Nav Button style ___*/
+
+
 .navButton {
 	display: flex;
 	justify-content: center;
@@ -33,4 +36,31 @@
     .navButton {
         display: none;
       }
+}
+
+
+/*____Home Button ____*/
+
+
+.home-Button {
+	
+	background-color:transparent;
+	border-radius:2px;
+	border:1px solid #fcfcfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcfcfc;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 35px;
+	text-decoration:none;
+	
+}
+.home-Button:hover {
+	background-color:#fcfcfc;
+	color: black;
+}
+.home-Button:active {
+	position:relative;
+	top:1px;
 }

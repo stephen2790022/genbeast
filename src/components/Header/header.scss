@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fcfcfc;
   }
   .nav-container {
     width: 90%;
@@ -100,11 +100,11 @@
       padding: 2rem;
       width: 100%;
       display: table;
-      color: #fff;
+      color: #fcfcfc;
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color: #fcfcfc;
       color: black;
     }
   
@@ -146,7 +146,7 @@
   
     .nav-links-mobile:hover {
       background: black;
-      color: #fff;
+      color: #fcfcfc;
       transition: 250ms;
     }
   

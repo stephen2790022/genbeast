@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../Button';
+import '../../assets/scss/buttons.scss';
+import MetaLogo from '../../assets/img/metamask.png';
 import './header.scss';
 
 const Header = () => {
@@ -67,7 +68,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-          <Button />
+          <button className='navButton'><img src={MetaLogo} alt="metamask logo" />Connect</button>
       </div>
 
     </nav>
