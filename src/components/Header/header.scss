@@ -69,6 +69,19 @@
   }
   
   @media screen and (max-width: 960px) {
+    .nav-links-mobile.navButton {
+      font-size: 1rem;
+      padding:10px 22px;
+      text-decoration:none;
+      color: #fcfcfc;
+      width: auto;
+      img {
+        height: 20px ;
+        width: 20px;
+        display:inline-block;
+        margin-right: 15px;
+      }
+    }
     .NavbarItems {
       position: relative;
     }
@@ -111,6 +124,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      font-size: 1.3rem;
       transform: translate(25%, 50%);
     }
   
@@ -136,7 +150,6 @@
       margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
-      background: #1888ff;
       text-decoration: none;
       color: black;
       font-size: 1.5rem;

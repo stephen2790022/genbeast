@@ -66,6 +66,9 @@ const Header = () => {
                 Contact Us
               </Link>
             </li>
+            
+              <button className=' nav-links-mobile navButton '><img src={MetaLogo} alt="metamask logo" />Connect</button>
+           
           </ul>
         </div>
           <button className='navButton'><img src={MetaLogo} alt="metamask logo" />Connect</button>

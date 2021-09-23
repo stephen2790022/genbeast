@@ -64,3 +64,13 @@
 	position:relative;
 	top:1px;
 }
+
+
+@media screen and (max-width: 960px) {
+	.home-Button {
+		font-size: 0.7rem;
+		padding:10px 22px;
+		text-decoration:none;
+
+	}
+}
