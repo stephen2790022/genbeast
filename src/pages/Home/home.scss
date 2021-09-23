@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fcfcfc;
+
 }
 
 .home-video {
@@ -21,10 +21,10 @@
 /*____Home body____*/
 .main-section {
     width: 75%;
-    height: 70vh;
+    height: 65vh;
     margin: 5em auto 0 auto;
 
-    &__body {
+    &__grid {
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -54,16 +54,10 @@
 
     h1 {
         width: 95%;
-        height: auto;
-        overflow: hidden;
-        line-height: 2.5rem;
-        color: #fcfcfc;
     }
 
     p {
-        margin: 1.5rem 0 1.5rem 0;
-        line-height: 1.7rem;
-        color: #e0d6d6;
+        margin: 1.5rem 0 1.7rem 0;
     }
 }
 

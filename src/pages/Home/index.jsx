@@ -10,7 +10,7 @@ const Home = () => {
             </video>
 
             <div className="main-section">
-                <div className="main-section__body">
+                <div className="main-section__grid">
                     <div className="item1">
                         <h1>Where code, art & creativity intersect.</h1>
                         <p>Monthly drops, world renowned artists, all whilst combining the best of both physical and digital. Operating as a quasi-DAO with a central governance token, our community is focused on pushing the boundaries of both technology and art.</p>
