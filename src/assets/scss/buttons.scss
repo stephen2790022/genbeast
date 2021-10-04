@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Roboto-Thin";
+	src: local("MyFont"), url(../font/RobotoMono-VariableFont_wght.ttf) format("truetype");
+}
+
 /* ___ Nav Button style ___*/
 
 
@@ -5,72 +10,98 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background:linear-gradient(to bottom, #000000 5%, #423f3f 100%);
-	background-color:#000000;
-	border-radius:6px;
-	border:2px solid #2e2c28;
-	cursor:pointer;
-	color:#fcfcfc;
-	font-size: 0.9rem;
-	padding:10px 22px;
-	text-decoration:none;
+
+	background-color: #000000;
+	border-radius: 6px;
+	border: 2px solid #2e2c28;
+	cursor: pointer;
+	color: #fcfcfc;
+	font-size: 1.2rem;
+	padding: 10px 22px;
+	text-decoration: none;
 
 	img {
-		height: 20px ;
+		height: 20px;
 		width: 20px;
-		display:inline-block;
+		display: inline-block;
 		margin-right: 10px;
 	}
 }
 
 .navButton:hover {
-	background:linear-gradient(to bottom, #423f3f 5%, #000000 100%);
-	background-color:#423f3f;
-}
-.navButton:active {
-	position:relative;
-	top:1px;
+	background: linear-gradient(to bottom, #423f3f 5%, #000000 100%);
+	background-color: #423f3f;
 }
 
-@media screen and (max-width: 960px) {
-    .navButton {
-        display: none;
-      }
+.navButton:active {
+	position: relative;
+	top: 1px;
 }
+
 
 
 /*____Home Button ____*/
 
 
 .home-Button {
-	
-	background-color:transparent;
-	border-radius:2px;
-	border:1px solid #fcfcfc;
-	display:inline-block;
-	cursor:pointer;
-	color:#fcfcfc;
-	font-size:15px;
-	font-weight:bold;
-	padding:9px 35px;
-	text-decoration:none;
-	
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #fcfcfc;
+	display: inline-block;
+	cursor: pointer;
+	color: #fcfcfc;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 9px 35px;
+	text-decoration: none;
 }
+
 .home-Button:hover {
-	background-color:#fcfcfc;
+	background-color: #fcfcfc;
 	color: black;
 }
+
 .home-Button:active {
-	position:relative;
-	top:1px;
+	position: relative;
+	top: 1px;
 }
 
+.btn-Membership {
+
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid rgba(108, 10, 128, 0.8);
+	display: inline-block;
+	cursor: pointer;
+	background: rgba(189, 16, 224, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	color: #fcfcfc;
+	font-size: 1.3rem;
+	font-weight: 900;
+	padding: 9px 35px;
+	text-decoration: none;
+	transition: background-color 0.4s;
+}
+
+.btn-Membership:hover {
+	background-color: #89d4cf;
+	background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+	color: black;
+    font-weight: 900;
+}
+
+/* Button Media query */
 
 @media screen and (max-width: 960px) {
+	.navButton {
+		display: none;
+	}
+
+	/* navButton see in header scss file */
 	.home-Button {
 		font-size: 0.7rem;
-		padding:10px 22px;
-		text-decoration:none;
-
+		padding: 10px 22px;
+		text-decoration: none;
 	}
+
 }

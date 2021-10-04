@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/scss/buttons.scss';
 import MetaLogo from '../../assets/img/metamask.png';
@@ -13,12 +13,27 @@ const Header = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const [sticky, setSticky] = useState(false);
+  const addStickyClass = () => {
+    if (window.scrollY >= 0.1) {
+      setSticky(true)
+    } else {
+      setSticky(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', addStickyClass);
+    return () => {
+      window.removeEventListener('scroll', addStickyClass)
+    }
+  }, [])
+
   return (
-    <nav className='navbar'>
+    <nav className={sticky ? 'navBar sticky' : 'navBar'}>
       <div className="nav-container">
         <div className="nav-container__items">
           <Link to='/' className='navbar-logo ' onClick={closeMobileMenu}>
-            GenBeast
+            GENBEAST
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -66,9 +81,7 @@ const Header = () => {
                 Contact Us
               </Link>
             </li>
-            
               <button className=' nav-links-mobile navButton '><img src={MetaLogo} alt="metamask logo" />Connect</button>
-           
           </ul>
         </div>
           <button className='navButton'><img src={MetaLogo} alt="metamask logo" />Connect</button>

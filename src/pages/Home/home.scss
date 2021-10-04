@@ -1,110 +1,142 @@
-.home-main {
+.home-main-container {
     position: relative;
     width: 100%;
+    min-height: 90vh;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-.home-video {
+.background-video {
     position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     object-fit: cover;
-    left: 0;
-    top: -80px;
-    z-index: -1;
+    z-index: -1000;
 }
 
 /*____Home body____*/
+
 .main-section {
-    width: 75%;
-    height: 65vh;
-    margin: 5em auto 0 auto;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 3em;
+    grid-auto-flow: row;
+    padding: 1.4rem 0 1.4rem 0;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+        ". .";
 
-    &__grid {
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 10em;
-        grid-auto-flow: row;
-        justify-content: center;
-        align-content: flex-start;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            ". .";
+}
 
+
+.item1 {
+    height: 100%;
+    width: 85%;
+    padding: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+
+    &__header {
+        margin-bottom: 15px;
+    }
+
+    &__body {
+        margin-bottom: 30px;
+    }
+
+}
+
+.item2 {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+
+    .card {
+        padding: 1.5rem;
+        margin-bottom: 3rem;
+        background: rgba(189, 16, 224, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
     }
 }
 
-.item1 {
-
-    height: 100%;
-    width: 100%;
-    padding: 2rem;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
+.changeColor {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    color: black;
+    font-weight: 900;
+    background-color: #89d4cf;
+	background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 
-    h1 {
-        width: 95%;
-    }
-
-    p {
-        margin: 1.5rem 0 1.7rem 0;
-    }
 }
 
-@media screen and (max-width: 960px) {
 
+@media screen and (max-width: 960px) {
+    .home-main-container {
+        top: 40px;
+
+    }
 
     .main-section {
         width: 90%;
-        height: 65vh;
-        margin: 5em auto 0 auto;
-    
-        &__grid {
-            width: 100%;
-            height: 100%;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 0px 0px;
-            grid-auto-flow: row;
-            justify-content: center;
-            align-content: flex-start;
-            justify-items: center;
-            align-items: center;
-            grid-template-areas:
-                "."
-                ".";
-    
-        }
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+            "."
+            ".";
     }
 
     .item1 {
-
         height: 100%;
         width: 100%;
-        padding: 2rem;
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(1.5px);
         -webkit-backdrop-filter: blur(1.5px);
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.18);
-    
+
         h1 {
             width: 95%;
             font-size: 0.8rem;
             line-height: 1rem
         }
-    
+
         p {
             margin: 1.5rem 0 1.7rem 0;
             font-size: 0.6rem;
