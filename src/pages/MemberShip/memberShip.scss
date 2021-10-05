@@ -8,14 +8,22 @@
     // background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     // background-color: #861657;
     // background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
-    background-color: #fcfcfc;
+
+    // background-color: #fcfcfc;
+
+    // background-color: #e899dc;
+    // background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+//     background-color: #fad0c4;
+// background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+
+
     display: flex;
     justify-content: center;
 }
 
 .MemberShip-section1-content {
     color: black;
-    margin: 2rem 0 3rem 0;
+    margin: 4rem 0 3rem 0;
     width: 80%;
     height: auto;
     display: grid;
@@ -29,10 +37,11 @@
     align-content: center;
     justify-items: center;
     align-items: flex-start;
+
     p {
         color: black;
     }
-    
+
 }
 
 .section1-title {
@@ -110,12 +119,15 @@
     // -webkit-backdrop-filter: blur(4px);
     // border-radius: 10px;
     // border: 1px solid rgba(255, 255, 255, 0.18);
-    background: rgba(255, 255, 255, 0.25);
-    -webkit-box-shadow: 5px 5px 6px -2px #000000;
-    box-shadow: 5px 5px 6px -2px #e0e0e0;
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+    
+    background-color: #fcfcfc;
+    // background: rgba(255, 255, 255, 0.25);
+    // -webkit-box-shadow: 5px 5px 6px -2px #000000;
+    // box-shadow: 5px 5px 6px -2px #e0e0e0;
+    // backdrop-filter: blur(0px);
+    // -webkit-backdrop-filter: blur(0px);
     border-radius: 10px;
+    color: #000000; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +139,11 @@
         text-align: center;
         font-size: 2.5rem;
         padding: 0 0 1rem 0;
-        border-bottom: 1px solid #fcfcfc;
+        border-bottom: 1px solid #000000;
     }
+    p {
+        color: #000000;
+
+    }
+
 }
