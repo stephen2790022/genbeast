@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import presentation from '../../assets/video/presentation3.mp4';
 import '../../assets/scss/buttons.scss';
 import { Helmet } from "react-helmet";
 import './home.scss'
 const Home = () => {
-    const [h1Hover, setH1Hover] = useState(false)
     return (
         <div className="home-main-container">
             <Helmet>
