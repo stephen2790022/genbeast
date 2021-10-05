@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import presentation from '../../assets/video/presentation3.mp4';
 import '../../assets/scss/buttons.scss';
 import { Helmet } from "react-helmet";
 import './home.scss'
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    },[])
     return (
-        <div className="home-main-container">
+        <div className="home-main-container" >
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home</title>
@@ -30,7 +33,7 @@ const Home = () => {
                 <div className="item2">
                     <div className='card'>
                         <h1 >Become a member and access exclusive drops.  </h1>
-                        <p>0,052 <i className="ethereum-logo fab fa-ethereum" /></p>
+                        <p>0,1 <i className="ethereum-logo fab fa-ethereum" /></p>
                     </div>
 
                     <button className="btn-Membership">

@@ -46,7 +46,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/member-ship'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

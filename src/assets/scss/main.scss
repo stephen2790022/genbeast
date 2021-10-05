@@ -14,7 +14,9 @@
 /*__________General tag styles________*/
 
 $h1-size: 2.2rem;
-$h1-weight: 100;
+$h1-weight: 300;
+$h2-size: 2.1rem;
+$h2-weight: 200;
 $p-size: 1.2rem;
 $p-weight: 100;
 $primary-color: #fdfdfd;
@@ -25,6 +27,14 @@ $primary-color: #fdfdfd;
 h1 {
   font-size: $h1-size;
   font-weight: $h1-weight;
+  line-height: 3rem;
+  color: $primary-color;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+h2 {
+  font-size: $h2-size;
+  font-weight: $h2-weight;
   line-height: 3rem;
   color: $primary-color;
   -ms-word-wrap: break-word;
