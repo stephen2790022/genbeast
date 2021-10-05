@@ -33,10 +33,7 @@ const Home = () => {
                         <p>0,052 <i className="ethereum-logo fab fa-ethereum" /></p>
                     </div>
 
-                    <button className="btn-Membership"
-                        onMouseEnter={() => setH1Hover(true)}
-                        onMouseLeave={() => setH1Hover(false)}
-                    >
+                    <button className="btn-Membership">
 
                         Buy Membership
                     </button>
