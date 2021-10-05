@@ -4,7 +4,7 @@ import '../../assets/scss/buttons.scss';
 import { Helmet } from "react-helmet";
 import './home.scss'
 const Home = () => {
-    const [ h1Hover, setH1Hover ] = useState(false)
+    const [h1Hover, setH1Hover] = useState(false)
     return (
         <div className="home-main-container">
             <Helmet>
@@ -29,11 +29,16 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="item2">
-                    <h1 className={ h1Hover ? 'changeColor' : 'card'}>Become a member and access exclusive drops.</h1>
+                    <div className='card'>
+                        <h1 >Become a member and access exclusive drops.  </h1>
+                        <p>0,052 <i className="ethereum-logo fab fa-ethereum" /></p>
+                    </div>
+
                     <button className="btn-Membership"
                         onMouseEnter={() => setH1Hover(true)}
-                        onMouseLeave={() => setH1Hover(false)}>
-                    
+                        onMouseLeave={() => setH1Hover(false)}
+                    >
+
                         Buy Membership
                     </button>
                 </div>
