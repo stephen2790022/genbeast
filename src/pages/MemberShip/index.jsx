@@ -36,30 +36,30 @@ const MemberShip = () => {
             </div>
             <div className="core-function-section2">
                 <div className="core-function-section2-content">
-                <div class="core-function-title"><h2>Core Functions</h2></div>
+                <div className="core-function-title"><h2>Core Functions</h2></div>
                     <div className="section2-card">
-                    <i class="fas fa-parachute-box"/>
+                    <i className="fas fa-parachute-box"/>
                         <p>Access to limited arts series, 1000 token drop Maximum</p> 
                     </div>
                     <div className="section2-card">
-                    <i class="fas fa-palette"/>
+                    <i className="fas fa-palette"/>
                         <p>Unique artists pushing the generative art boundaries</p>
 
                     </div>
                     <div className="section2-card">
-                    <i class="far fa-handshake"/>
+                    <i className="far fa-handshake"/>
                         <p>Exclusive merch and fashion collaboration with the top generative artists</p>
                     </div>
                     <div className="section2-card">
-                    <i class="fab fa-digital-ocean"/>
+                    <i className="fab fa-digital-ocean"/>
                         <p>Digital and phisical event/exhibitions</p>
                     </div>
                     <div className="section2-card">
-                    <i class="fas fa-balance-scale"/>
+                    <i className="fas fa-balance-scale"/>
                         <p>Voting rights on strategic decisions</p>
                     </div>
                     <div className="section2-card">
-                    <i class="fas fa-gas-pump"/>
+                    <i className="fas fa-gas-pump"/>
                         <p>Almost non existent gas fee</p>
                     </div>
                 </div>
