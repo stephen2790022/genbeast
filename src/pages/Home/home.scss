@@ -69,7 +69,7 @@
     align-content: flex-start;
 
     .card {
-        padding: 1.5rem;
+        padding: 1.7rem;
         margin-bottom: 3rem;
         border-radius: 3px;
         display: flex;
@@ -78,8 +78,6 @@
         align-content: flex-start;
         // background: rgba(102,23,203, 0.25);  
         // background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
-
-
         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 23, 203, 0.8)), to(rgba(102,23,203, 0.2)), color-stop(.5,#cb218e));
 
         h2 {
