@@ -51,7 +51,7 @@
 	cursor: pointer;
 	color: #fcfcfc;
 	font-size: 1.1rem;
-	font-weight: bold;
+	font-weight: 500;
 	padding: 9px 35px;
 	text-decoration: none;
 }
@@ -67,22 +67,24 @@
 }
 
 /* Membership- Button */
+// .btn-Membership {
+
+// 	background-color: transparent;
+// 	border-radius: 2px;
+// 	border: 1px solid #fcfcfc;
+// 	display: inline-block;
+// 	cursor: pointer;
+// 	color: #fcfcfc;
+// 	font-size: 1.1rem;
+// 	font-weight: 500;
+// 	padding: 9px 35px;
+// 	text-decoration: none;
+// }
 .btn-Membership {
 
-	// border: 2px solid rgba(108, 10, 128, 0.8);
-	// display: inline-block;
-	// cursor: pointer;
-	// background: rgba(189, 16, 224, 0.25);
-	// box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-	
-	// background-color: #6617cb;
-	// background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
 	cursor: pointer;
 	background-color: transparent;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 23, 203, 0.8)), to(rgba(102,23,203, 0.2)), color-stop(.5,#cb218e));
-
-
-	
 	color: #fcfcfc;
 	font-size: 1.3rem;
 	font-weight: 500;

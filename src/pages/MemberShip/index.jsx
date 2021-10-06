@@ -64,6 +64,10 @@ const MemberShip = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="extra-section3">
+                
+            </div>
         </>
     );
 };

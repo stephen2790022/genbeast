@@ -49,8 +49,8 @@
     align-content: flex-start;
     // background-color: #310e68;
     // background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
-    border-radius:2px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,50,50,0.8)),to(rgba(80,80,80,0.2)), color-stop(.5,#333333));
+    border-radius: 2px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.8)), to(rgba(80, 80, 80, 0.2)), color-stop(.5, #333333));
 
     &__header {
         margin-bottom: 15px;
@@ -74,23 +74,57 @@
         padding: 1.5rem;
         margin-bottom: 3rem;
         border-radius: 3px;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
         // background: rgba(102,23,203, 0.25);  
         // background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
 
 
         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 23, 203, 0.8)), to(rgba(102,23,203, 0.2)), color-stop(.5,#cb218e));
 
+        h2 {
+            text-align: center;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid #fcfcfc;
+            margin-bottom: 2rem;
+        }
 
-        p {
-            margin-top: 1.5rem;
-            padding: 0.5rem;
-            width: 100px;
+        .pricing {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .price {
+            border: 1px solid #fcfcfc;
+            padding: 0.2rem 1rem;
             border-radius: 50px;
         }
 
     }
 }
+
+// .item2 {
+//     height: auto;
+//     width: 85%;
+//     padding: 1.7rem;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-content: flex-start;
+//     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 23, 203, 0.8)), to(rgba(102, 23, 203, 0.2)), color-stop(.5, #cb218e));
+
+
+//     &__header {
+//         margin-bottom: 15px;
+//     }
+
+//     &__body {
+//         margin-bottom: 30px;
+//     }
+// }
 
 
 

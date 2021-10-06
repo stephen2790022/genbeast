@@ -30,19 +30,36 @@ const Home = () => {
                         <button className="home-Button">Learn more</button>
                     </div>
                 </div>
+
+                {/* <div className="item2">
+                    <div className="item2__header">
+                        <h1>BECOME A MEMBER.</h1>
+                    </div>
+                    <div className="item2__body">
+                        <p>
+                            Obtain your membership token and access to exclusive drops.
+                        </p>
+                    </div>
+                    <div className="item2__footer">
+                        <button className="btn-Membership">Buy membership</button>
+                    </div>
+                </div> */}
+
                 <div className="item2">
                     <div className='card'>
-                        <h1 >Become a member and access exclusive drops.  </h1>
-                        <p>0,1 <i className="ethereum-logo fab fa-ethereum" /></p>
+                        <h2 >BECOME A MEMBER  </h2>
+                        <p>Obtain your membership and access to exclusive drops. </p>
+                        <div className="pricing">
+                        <p className="price">0,1 <i className="ethereum-logo fab fa-ethereum" /></p>
+                        <p>5000/5000 Remaining</p>
+                        </div>
                     </div>
 
                     <button className="btn-Membership">
-
                         Buy Membership
                     </button>
                 </div>
             </div>
-
         </div>
     );
 };
