@@ -41,8 +41,13 @@
 }
 
 .content1 {
-    padding: 1rem;
     grid-area: content1;
+    padding: 1.5rem;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #ffffff;
+    -webkit-box-shadow: 9px 9px 15px #a8a8a8, -9px -9px 15px #ffffff;
+    box-shadow: 9px 9px 15px #a8a8a8, -9px -9px 15px #ffffff;
 }
 
 .content2 {
@@ -104,7 +109,7 @@
     box-shadow: 5px 5px 6px -2px #5b2888;
     backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(0px);
-    border-radius: 10px; 
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,10 +122,11 @@
         font-size: 2.5rem;
         padding: 0 0 1rem 0;
         border-bottom: 1px solid #000000;
-        color:black;
+        color: black;
     }
+
     p {
-    color: black;
+        color: black;
 
     }
 }

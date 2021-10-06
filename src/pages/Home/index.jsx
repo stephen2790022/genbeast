@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import presentation from '../../assets/video/presentation3.mp4';
+import HomeVideo from '../../assets/video/home-video.mp4';
 import '../../assets/scss/buttons.scss';
 import { Helmet } from "react-helmet";
 import './home.scss'
@@ -14,7 +14,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
             <video className="background-video" autoPlay loop muted>
-                <source src={presentation} type="video/mp4" />
+                <source src={HomeVideo} type="video/mp4" />
             </video>
 
             <div className="main-section">

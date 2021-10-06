@@ -22,8 +22,6 @@ $p-weight: 600;
 $primary-color: #fdfdfd;
 
 
-
-
 h1 {
   font-size: $h1-size;
   font-weight: $h1-weight;
@@ -47,4 +45,10 @@ p {
   color: $primary-color;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+}
+
+/* Scroll Bare */   
+
+::-webkit-scrollbar {
+  width: 0px;
 }
