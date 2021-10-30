@@ -55,7 +55,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/airdrops'
+                to='/artiste-drop'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -65,7 +65,7 @@ const Header = () => {
            
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -74,7 +74,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/contact-us'
+                to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
