@@ -14,10 +14,10 @@ const MemberShip = () => {
             </Helmet>
             <div className="MemberShip-section1">
                 <div className="MemberShip-section1-content">
-                    <h1 className="section1-title">THE GENBEAST MEMBERSHIP</h1>
+                    <h1 className="section1-title">THE GENERATIV.X MEMBERSHIP</h1>
                     <div className="content1">
                         <p>
-                            Becoming a GenBeast Member is the only way to purchase exclusive
+                            Becoming a Generative.X Member is the only way to purchase exclusive
                             NFT Generative and Ai art piece from our exclusive drops. 
                             We will be minting 5 555 ERC-721 membership tokens.
                             The initial sale for the 5 555 membership will be here on 
@@ -28,10 +28,12 @@ const MemberShip = () => {
                             We partnered with the most planed to at least 2 drops per month.
                             If the initial is sold out, they may be traded on the open market at Open Sea.
                             If you choose to sell this token you will lose access to our members only drops.
-
                         </p>
                     </div>
-                    <div className="content2">THE GENBEAST MEMBERSHIP</div>
+                    <div className="content2">
+                    <i class="fas fa-dice-d20"></i>
+                        <p>THE GENERATIV.X MEMBERSHIP</p>
+                    </div>
                 </div>
             </div>
             <div className="core-function-section2">
@@ -65,9 +67,9 @@ const MemberShip = () => {
                 </div>
             </div>
 
-            <div className="extra-section3">
+            {/* <div className="extra-section3">
                 
-            </div>
+            </div> */}
         </>
     );
 };

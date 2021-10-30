@@ -53,7 +53,7 @@ const Header = () => {
                 Membership
               </Link>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <Link
                 to='/airdrops'
                 className='nav-links'
@@ -80,7 +80,7 @@ const Header = () => {
               >
                 Contact Us
               </Link>
-            </li> */}
+            </li>
               <button className=' nav-links-mobile navButton '><img src={MetaLogo} alt="metamask logo" />Connect</button>
           </ul>
         </div>

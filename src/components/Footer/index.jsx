@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer-main">
             <div className="footer-container">
                 <div className="footer-content">
-                    <div className="right">Copyright © 2021 GENBEAST. All rights reserved.</div>
+                    <div className="right">Copyright © 2021 GENERATIV.X All rights reserved.</div>
                     <div className="social">
                         <div className="social__link"><i className="fab fa-twitter-square"></i></div>
                         <div className="social__link"><i className="fab fa-discord"></i></div>
