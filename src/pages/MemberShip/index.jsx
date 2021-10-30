@@ -17,11 +17,11 @@ const MemberShip = () => {
                     <h1 className="section1-title">THE GENERATIV.X MEMBERSHIP</h1>
                     <div className="content1">
                         <p>
-                            Becoming a Generative.X Member is the only way to purchase exclusive
-                            NFT Generative and Ai art piece from our exclusive drops. 
+                            Becoming a Generative.X Member is the only way to purchase exclusive 
+                            Generative art piece from our exclusive drops. 
                             We will be minting 5 555 ERC-721 membership tokens.
                             The initial sale for the 5 555 membership will be here on 
-                            the GenBeast membership page. In order to purchase a membership, 
+                            the Generative.X membership page. In order to purchase a membership, 
                             you must have a MetaMask wallet and Ethereum. There will be 
                             a limit of 5 memberships per transaction. The membership will be 0.1<i className="ethereum-logo fab fa-ethereum" />.
                             This ERC-721 token is a lifetime membership.
