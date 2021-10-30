@@ -33,7 +33,7 @@ const Header = () => {
       <div className="nav-container">
         <div className="nav-container__items">
           <Link to='/' className='navbar-logo ' onClick={closeMobileMenu}>
-            GENBEAST
+            GENERATIV.X
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
